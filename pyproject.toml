@@ -1,0 +1,17 @@
+[project]
+name = "rise"
+version = "0.1.0"
+description = "Dependencies for RISE notebooks"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "jupyter>=1.0.0",
+    "keras<3.0.0",
+    "matplotlib>=3.0.0",
+    "numpy<2.0.0",
+    "scikit-image>=0.18.0",
+    "tensorflow[and-cuda]==2.15.*",
+    "torch>=1.7.0",
+    "torchvision>=0.8.0",
+    "tqdm>=4.50.0",
+]
